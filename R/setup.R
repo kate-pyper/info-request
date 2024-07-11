@@ -43,5 +43,5 @@ setup <- function(path, script, ...) {
 
 ### END OF SCRIPT ###"
   
-  writeLines(script_temp, con = file.path(path, "3. Scripts", paste0(script,".R")))
+  writeLines(script_temp, con = file.path(path, "3. Scripts", "script.R"))
 }

@@ -2,7 +2,3 @@ Binding: setup
 Title: Information Request
 OpenFiles: script.R
 
-Parameter: script
-Widget: TextInput
-Label: Script Name
-Position: left

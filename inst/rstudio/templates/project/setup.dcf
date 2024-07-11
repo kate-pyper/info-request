@@ -1,2 +1,7 @@
 Binding: setup
 Title: Information Request
+
+Parameter: script
+Widget: TextInput
+Label: Script Name
+Position: left

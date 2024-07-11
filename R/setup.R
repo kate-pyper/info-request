@@ -1,4 +1,4 @@
-setup <- function(path, script, ...) {
+setup <- function(path, ...) {
   # ensure path exists
   dir.create(path, recursive = TRUE, showWarnings = FALSE)
 
@@ -43,5 +43,6 @@ setup <- function(path, script, ...) {
 
 ### END OF SCRIPT ###"
   
-  writeLines(script_temp, con = file.path(path, "3. Scripts", "script.R"))
+  writeLines(script_temp, con = file.path(path, "3. Scripts", paste0(dots[[1]], ".R")))
+  file.edit(file.path(path, "3. Scripts", paste0(dots[[1]], ".R")))
 }

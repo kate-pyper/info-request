@@ -1,5 +1,6 @@
 Binding: setup
 Title: Information Request
+OpenFiles: 3. Scripts/*.R
 
 Parameter: script
 Widget: TextInput

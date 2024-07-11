@@ -43,6 +43,7 @@ setup <- function(path, ...) {
 
 ### END OF SCRIPT ###"
   
+  dots <- list(...)
   writeLines(script_temp, con = file.path(path, "3. Scripts", paste0(dots[[1]], ".R")))
   file.edit(file.path(path, "3. Scripts", paste0(dots[[1]], ".R")))
 }

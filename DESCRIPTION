@@ -1,7 +1,7 @@
 Package: inforequest
 Title: Information Request Project Set-up
 Author: Kate Pyper
-Maintainer: Kate Pyper
+Maintainer: Kate Pyper <kate.pyper@phs.scot>
 Version: 0.0.1
 Description: Package to set up information request structure with accompanying project
 Depends: R (>= 4.1.2)
